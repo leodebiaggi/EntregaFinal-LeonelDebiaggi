@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- link de mi css -->
+	<link rel="stylesheet" href="css/styles.css">
+    <title>Mayben Confiteria</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1Oculto">Mayben Confiteria</h1>
+        <div id="navDesktop">
+            <nav class="fixedNav">
+                <ul class="ulNav">
+                    <li>
+                        <a id="logoMayben"  style="background: none;" href="index.html"><img class="logoMayben" src="images/logo.jpg" alt="logo Mayben Confiteria"/></a>
+                    </li>
+                    <li><a href="pages/servicios.html"> Servicios </a></li>
+                    <li><a href="pages/pedidos.html"> Pedidos </a></li>
+                    <li><a href="pages/historia.html"> Nuestra Historia </a></li>
+                    <li><a href="pages/contacto.html"> Contacto </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navMobile">
+            <nav class="navbar navbar-expand-lg bg-light">
+                 <a href="index.html"><img class="logoMediaQueries" src="images/logo.jpg" alt="logo Mayben"/>
+                    </a> 
+                <div class="container-fluid bsMenu">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-center me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><i class="material-icons"> home </i>Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/servicios.html"><i class="material-icons"> menu_book </i>Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/pedidos.html"><i class="material-icons"> shopping_cart </i>Pedidos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/historia.html"><i class="material-icons"> history_edu </i>Historia</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/contacto.html"><i class="material-icons"> contact_mail </i>Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active portadaCarousel">
+                <img src="images/carousel/Portada1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item portadaCarousel">
+                <img src="images/carousel/Portada2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item portadaCarousel">
+                <img src="images/carousel/Portada3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item portadaCarousel">
+                <img src="images/carousel/Portada4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item portadaCarousel">
+                <img src="images/carousel/Portada5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div id="navMobile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.0062640988103!2d-59.02817358478379!3d-34.09497998059435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb0b68c2fb159b%3A0x61e266d60bdc768f!2sMay%20Ben%20Z%C3%A1rate%20Confiteria%20Tradicional!5e0!3m2!1ses!2sar!4v1668619865731!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p id="copyright">Sitio web desarrollado por Leonel Debiaggi</p>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
