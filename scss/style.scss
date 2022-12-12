@@ -382,6 +382,7 @@ nav {
     grid-auto-flow: row;
     margin-left: 40%;
     margin-right: 40%;
+    margin-top: 5%;
     justify-content: center;
     justify-items: center;
     grid-template-areas:
@@ -502,13 +503,11 @@ nav {
 }
 
 main .tituloPedidos {
-    width: 100%;
     text-align: center;
     font-weight: bold;
     font-size: 30px;
     padding-top: 5%;
     margin: 30px;
-
 }
 
 main .divCatalago {
@@ -516,6 +515,7 @@ main .divCatalago {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-items: center;
     flex-direction: row;
 }
 
@@ -543,6 +543,8 @@ main .box {
 // main pedidos mobile
 
 main .tituloPedidos {
+    padding-top: 3%;
+
     @include Mobile {
         display: none;
     }
@@ -589,6 +591,10 @@ main .box {
         margin: 15px;
         box-shadow: $sombraBox;
     }
+}
+
+.shoppingCart{
+    text-decoration: none;
 }
 
 //main historia
@@ -779,16 +785,16 @@ main .box {
 // main contacto
 
 .estiloContacto {
-    background: #feebd6;
+    background: $fondoBlanco;
 }
 
 .formContacto {
     width: 400px;
-    background: #feebd6;
+    background: $fondoBlanco;
     padding: 30px;
     text-align: center;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 15rem;
     border-radius: 4px;
     font-family: $tipografia;
     color: black;
@@ -796,7 +802,7 @@ main .box {
 
     @include Mobile {
         width: 400px;
-        background: #feebd6;
+        background: $fondoBlanco;
         padding: 30px;
         text-align: center;
         margin: auto;
@@ -810,7 +816,7 @@ main .box {
     @include Tablet {
         width: 700px;
         height: 800px;
-        background: #feebd6;
+        background: $fondoBlanco;
         padding: 30px;
         text-align: center;
         margin: auto;
@@ -884,5 +890,4 @@ footer {
     background-color: $fondoBlanco;
     z-index: 2;
     box-shadow: $sombraBox;
-
 }

@@ -305,6 +305,7 @@ nav {
   grid-auto-flow: row;
   margin-left: 40%;
   margin-right: 40%;
+  margin-top: 5%;
   justify-content: center;
   justify-items: center;
   grid-template-areas: "divHeader divHeader" "divLunch divVideo" "divPanaderia divVideo" "divPasteleria divVideo" "divSalados divVideo"; }
@@ -386,7 +387,6 @@ nav {
   background-color: #fff6f5; }
 
 main .tituloPedidos {
-  width: 100%;
   text-align: center;
   font-weight: bold;
   font-size: 30px;
@@ -398,6 +398,7 @@ main .divCatalago {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  justify-items: center;
   flex-direction: row; }
 
 main .box img {
@@ -417,13 +418,14 @@ main .box {
   margin: 15px;
   box-shadow: 0px 0px 5px 1px black; }
 
-@media screen and (min-width: 0px) and (max-width: 480px) {
-  main .tituloPedidos {
-    display: none; } }
-
-@media screen and (min-width: 481px) and (max-width: 767px) {
-  main .tituloPedidos {
-    display: none; } }
+main .tituloPedidos {
+  padding-top: 3%; }
+  @media screen and (min-width: 0px) and (max-width: 480px) {
+    main .tituloPedidos {
+      display: none; } }
+  @media screen and (min-width: 481px) and (max-width: 767px) {
+    main .tituloPedidos {
+      display: none; } }
 
 @media screen and (min-width: 0px) and (max-width: 480px) {
   main .divCatalago {
@@ -453,6 +455,9 @@ main .box {
   main .box {
     margin: 15px;
     box-shadow: 0px 0px 5px 1px black; } }
+
+.shoppingCart {
+  text-decoration: none; }
 
 .estiloHistoria {
   background-color: #fff6f5; }
@@ -595,15 +600,15 @@ main .box {
   margin: 5px; }
 
 .estiloContacto {
-  background: #feebd6; }
+  background: #fff6f5; }
 
 .formContacto, .formContacto a:hover {
   width: 400px;
-  background: #feebd6;
+  background: #fff6f5;
   padding: 30px;
   text-align: center;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 15rem;
   border-radius: 4px;
   font-family: "calibri";
   color: black;
@@ -611,7 +616,7 @@ main .box {
   @media screen and (min-width: 0px) and (max-width: 480px) {
     .formContacto, .formContacto a:hover {
       width: 400px;
-      background: #feebd6;
+      background: #fff6f5;
       padding: 30px;
       text-align: center;
       margin: auto;
@@ -624,7 +629,7 @@ main .box {
     .formContacto, .formContacto a:hover {
       width: 700px;
       height: 800px;
-      background: #feebd6;
+      background: #fff6f5;
       padding: 30px;
       text-align: center;
       margin: auto;
