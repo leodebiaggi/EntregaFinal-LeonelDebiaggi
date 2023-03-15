@@ -17,6 +17,8 @@
   <!-- link de mi css -->
   <link rel="stylesheet" href="../css/styles.css">
   <link rel="shortcut icon" href="../images/favicon.jpg">
+  <!-- link script -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
   <title>Mayben - Contacto</title>
 </head>
 
@@ -31,7 +33,7 @@
                 src="../images/logo.jpg" alt="logo Mayben Confiteria" /></a>
           </li>
           <li><a href="servicios.html"> Servicios </a></li>
-          <li><a href="pedidos.html"> Pedidos </a></li>
+          <li><a href="simulador.html"> Simulador Catering </a></li>
           <li><a href="historia.html"> Nuestra Historia </a></li>
           <li><a href="contacto.html"> Contacto </a></li>
         </ul>
@@ -82,8 +84,9 @@
       <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
       <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
       <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-      <input class="controls" type="text" name="correo" id="mensaje" placeholder="Ingrese su Mensaje">
-      <input class="botons" type="submit" value="Enviar">
+      <input class="controls" type="text" name="mensaje" id="mensaje" placeholder="Ingrese su Mensaje">
+      <input class="botons" type="submit" value="Enviar" id="enviar">
+      <button class="botons" id="recuperar">Recuperar último mensaje</button>
     </section>
   </main>
 
@@ -96,6 +99,7 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
 
+  <script src="../js/contacto.js"></script>
 </body>
 
 </html>
